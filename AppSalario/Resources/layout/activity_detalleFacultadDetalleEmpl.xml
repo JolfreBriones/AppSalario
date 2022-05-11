@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="NAME Details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+        android:paddingBottom="100dp"
+        android:background="@color/orange"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/facultad_detalleEmpleadoDetalle_TxtTitle"/>
+   
+    <ImageButton
+        android:contentDescription=""
+        android:src="@drawable/iconoatras"
+        android:scaleType="fitCenter"
+        android:layout_margin="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/orange"
+        android:id="@+id/facultad_detalleEmpleadoDetalle_BtnRegresar" />
+        
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:id="@+id/facultad_detalleEmpleadoDetalle_RelativeLayout1" >
+        
+        <TextView
+            android:text="Estadisticas de la Facultad"
+            android:textColor="@color/darkGray"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/facultad_detalleEmpleadoDetalle_TxtSub" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:layout_below="@+id/facultad_detalleEmpleadoDetalle_TxtSub"
+            android:id="@+id/scrollView1">
+
+            <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:id="@+id/facultad_detalleEmpleadoDetalle_linearLayout1">
+            
+            <LinearLayout
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@color/orange"
+                android:id="@+id/facultad_detalleEmpleadoDetalle_linearLayout1">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/darkGray"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/facultad_detalleEmpleadoDetalle_TxtTitleEstadis1" />
+                <TextView
+                    android:text="Salario"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkGray"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/facultad_detalleEmpleadoDetalle_TxtSubEstadis1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@color/orange"
+                android:id="@+id/facultad_detalleEmpleadoDetalle_linearLayout2">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/darkGray"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/facultad_detalleEmpleadoDetalle_TxtTitleEstadis2" />
+                <TextView
+                    android:text="Fecha de Nacimiento"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkGray"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/facultad_detalleEmpleadoDetalle_TxtSubEstadis2" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@color/orange"
+                android:id="@+id/facultad_detalleEmpleadoDetalle_linearLayout3">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/darkGray"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/facultad_detalleEmpleadoDetalle_TxtTitleEstadis3" />
+                <TextView
+                    android:text="Fecha de Comienzo"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkGray"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/facultad_detalleEmpleadoDetalle_TxtSubEstadis2" />
+            </LinearLayout>
+
+        </LinearLayout>
+        </ScrollView>
+        
+         
+
+        
+    </RelativeLayout>
+
+
+</RelativeLayout>

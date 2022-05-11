@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AppSalario</string>
+    <string name="action_settings">Settings</string>
+	
+	
+	
+	<!--Cadenas main-->
+	<string name="lblFacultades">Facultades</string>
+
+
+	<!--Cadenas facultades-->
+	<string name="facultadBtn1">Empleados</string>
+	<string name="facultadBtn2">Estadisticas</string>
+
+
+	
+
+
+</resources>

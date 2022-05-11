@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="NAME Details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+        android:paddingBottom="100dp"
+        android:background="@color/orange"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:id="@+id/facultad_detalleEstadistica_TxtTitle"/>
+   
+    <ImageButton
+        android:contentDescription=""
+        android:src="@drawable/iconoatras"
+        android:scaleType="fitCenter"
+        android:layout_margin="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/orange"
+        android:id="@+id/facultad_detalleEstadistica_BtnRegresar" />
+        
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:id="@+id/facultad_detalleEstadistica_RelativeLayout1" >
+        
+        <TextView
+            android:text="Estadisticas de la Facultad"
+            android:textColor="@color/darkGray"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/facultad_detalleEstadistica_TxtSub" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="30dp"
+            android:background="@color/gray"
+            android:layout_below="@+id/facultad_detalleEstadistica_TxtSub"
+            android:layout_above="@+id/facultad_detalleEstadistica_tableRow1"
+            android:id="@+id/facultad_detalleEstadistica_linearLayout1">
+            <ListView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/facultad_detalleEstadistica_listView1" />
+
+            
+
+        </LinearLayout>
+         
+
+        <TableRow
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="1dp"
+            android:layout_margin="0dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray"
+            android:id="@+id/facultad_detalleEstadistica_tableRow1" >
+
+            
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:id="@+id/facultad_detalleEstadistica_linearLayout1">
+                
+                <ImageButton
+                    android:contentDescription="Empleados"
+                    android:src="@drawable/iconoempleados"
+                    android:scaleType="fitCenter"
+                    android:padding="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:id="@+id/facultad_detalleEstadistica_imageButton1" />
+                <TextView
+                    android:text="Empleados"
+                    android:textColor="@color/darkGray"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:id="@+id/facultad_detalleEstadistica_textView1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:id="@+id/facultad_detalleEstadistica_LinearLayout2">
+
+                <ImageButton
+                    android:contentDescription="Empleados"
+                    android:src="@drawable/iconografico_orange"
+                    android:scaleType="fitCenter"
+                    android:padding="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/white"
+                    android:id="@+id/facultad_detalleEstadistica_ImageButton2" />
+                <TextView
+                    android:text="Estadisticas"
+                    android:textColor="@color/orange"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/facultad_detalleEstadistica_textView2" />
+            </LinearLayout>
+        </TableRow>
+        
+    </RelativeLayout>
+
+
+</RelativeLayout>

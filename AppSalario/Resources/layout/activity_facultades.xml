@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Facultades"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+        android:paddingBottom="100dp"
+        android:background="@color/orange"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:id="@+id/textView1"/>
+   
+     <ImageButton
+        android:contentDescription=""
+        android:src="@drawable/iconoatras"
+        android:scaleType="fitCenter"
+        android:layout_margin="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/orange"
+        android:id="@+id/facultades_BtnRegresar" />
+        
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:id="@+id/relativeLayout1" >
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/facultadListView1" />
+        
+    </RelativeLayout>
+    
+
+</RelativeLayout>
