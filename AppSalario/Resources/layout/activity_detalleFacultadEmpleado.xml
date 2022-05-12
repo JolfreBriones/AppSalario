@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:text="NAME Details"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,7 +35,7 @@
         android:background="@color/white"
         android:id="@+id/facultad_detalleEmpleado_relativeLayout1" >
         <TextView
-            android:text="Lista de Empledos"
+            android:text="@string/facultadesEmpleadosTxt1"
             android:textColor="@color/darkGray"
             android:padding="20dp"
             android:textStyle="bold"
@@ -76,7 +75,7 @@
                 android:padding="10dp"
                 android:id="@+id/facultad_detalleEmpleado_linearLayout1">
                 <ImageButton
-                    android:contentDescription="Empleados"
+                    android:contentDescription="@string/facultadesEmpleadosTxt2"
                     android:src="@drawable/iconoempleados_orange"
                     android:scaleType="fitCenter"
                     android:padding="0dp"
@@ -85,7 +84,7 @@
                     android:background="@color/white"
                     android:id="@+id/facultad_detalleEmpleado_imageButton1" />
                 <TextView
-                    android:text="Empleados"
+                    android:text="@string/facultadesEmpleadosTxt2"
                     android:textColor="@color/orange"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_width="match_parent"
@@ -104,7 +103,7 @@
                 android:padding="10dp"
                 android:id="@+id/facultad_detalleEmpleado_linearLayout2">
                 <ImageButton
-                    android:contentDescription="Empleados"
+                    android:contentDescription="@string/facultadesEmpleadosTxt3"
                     android:src="@drawable/iconografico"
                     android:scaleType="fitCenter"
                     android:padding="0dp"
@@ -113,7 +112,7 @@
                     android:background="@color/white"
                     android:id="@+id/facultad_detalleEmpleado_imageButton2" />
                 <TextView
-                    android:text="Estadisticas"
+                    android:text="@string/facultadesEmpleadosTxt3"
                     android:textColor="@color/darkGray"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_width="match_parent"

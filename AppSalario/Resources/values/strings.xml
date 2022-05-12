@@ -5,15 +5,34 @@
 	
 	
 	<!--Cadenas main-->
-	<string name="lblFacultades">Facultades</string>
+	<string name="mainTxt1">¡Bienvenido\na nuestra App!</string>
+	<string name="mainTxt2">Repositorio de todas las aplicaciones de la clase de facultativa</string>
 
+	<!--Cadenas lista aplicaciones-->
+	<string name="listaAplicacionesTxt1">¡Elige una \nAplicación!</string>
+	<string name="listaAplicacionesBtn1">💰\nAppSalario</string>
 
 	<!--Cadenas facultades-->
-	<string name="facultadBtn1">Empleados</string>
-	<string name="facultadBtn2">Estadisticas</string>
+	<string name="facultadesTxt1">Facultades</string>
 
 
+	<!--Cadenas facultades-Empleados-->
+	<string name="facultadesEmpleadosTxt1">Lista de Empledos</string>
+	<string name="facultadesEmpleadosTxt2">Empleados</string>
+	<string name="facultadesEmpleadosTxt3">Estadísticas</string>
+
+
+	<!--Cadenas facultades-Estadisticas-->
+	<string name="facultadesEstadisticasTxt1">Estadísticas de la Facultad</string>
 	
+	<!--Cadenas facultades-Empleados-Detalles-->
+	<string name="facultadesEmpleadosDetalleTxt1">Información del Empleado</string>
+	<string name="facultadesEmpleadosDetalleTxt2">Salario</string>
+	<string name="facultadesEmpleadosDetalleTxt3">Fecha Nacimiento</string>
+	<string name="facultadesEmpleadosDetalleTxt4">Fecha Comienzo</string>
+
+
+
 
 
 </resources>

@@ -73,7 +73,7 @@ namespace AppSalario
         protected static double GetSalarioPromedio(int id)
         {
             List<double> salariosEmpleados = Global.Empleados.Where(x => x.FacultadId == id).Select(e => e.Salario).ToList();
-            return salariosEmpleados.Sum()/salariosEmpleados.Count;
+            return Math.Round((salariosEmpleados.Sum()/salariosEmpleados.Count), 2);
         }
         protected static int GetCantidadEmpleado(int id)
         {

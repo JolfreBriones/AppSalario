@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:text="NAME Details"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +36,7 @@
         android:id="@+id/facultad_detalleEstadistica_RelativeLayout1" >
         
         <TextView
-            android:text="Estadisticas de la Facultad"
+            android:text="@string/facultadesEstadisticasTxt1"
             android:textColor="@color/darkGray"
             android:padding="20dp"
             android:textStyle="bold"
@@ -88,23 +87,21 @@
                 android:id="@+id/facultad_detalleEstadistica_linearLayout1">
                 
                 <ImageButton
-                    android:contentDescription="Empleados"
+                    android:contentDescription="@string/facultadesEmpleadosTxt2"
                     android:src="@drawable/iconoempleados"
                     android:scaleType="fitCenter"
                     android:padding="0dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_height="40dp"
                     android:background="@color/white"
                     android:id="@+id/facultad_detalleEstadistica_imageButton1" />
                 <TextView
-                    android:text="Empleados"
+                    android:text="@string/facultadesEmpleadosTxt2"
                     android:textColor="@color/darkGray"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_width="match_parent"
                     android:textAlignment="center"
                     android:layout_height="match_parent"
-                    android:layout_weight="2"
                     android:id="@+id/facultad_detalleEstadistica_textView1" />
             </LinearLayout>
 
@@ -118,7 +115,7 @@
                 android:id="@+id/facultad_detalleEstadistica_LinearLayout2">
 
                 <ImageButton
-                    android:contentDescription="Empleados"
+                    android:contentDescription="@string/facultadesEmpleadosTxt3"
                     android:src="@drawable/iconografico_orange"
                     android:scaleType="fitCenter"
                     android:padding="0dp"
@@ -127,7 +124,7 @@
                     android:background="@color/white"
                     android:id="@+id/facultad_detalleEstadistica_ImageButton2" />
                 <TextView
-                    android:text="Estadisticas"
+                    android:text="@string/facultadesEmpleadosTxt3"
                     android:textColor="@color/orange"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:layout_width="match_parent"

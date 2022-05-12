@@ -8,7 +8,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="¡Bienvenido\na nuestra App!"
+        android:text="@string/mainTxt1"
         android:textStyle="bold"
         android:layout_margin="20dp"
         android:textSize="35dp"
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView1" />
     <TextView
-        android:text="Repositorio de todas las aplicaciones de la clase de facultativa"
+        android:text="@string/mainTxt2"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,12 +44,10 @@
     <ImageView
         android:contentDescription=""
         android:src="@drawable/android"
-        android:layout_width="250dp"
+        android:layout_width="match_parent"
         android:layout_height="500dp"
         android:scaleType="matrix"
         android:layout_toRightOf="@+id/mainBtn1"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:id="@+id/imageView1" />
-
 </RelativeLayout>

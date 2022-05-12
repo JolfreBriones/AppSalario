@@ -49,6 +49,7 @@ namespace AppSalario
 //            view.FindViewById<ImageView>(Resource.Id.listIconImage).SetImageURI(Android.Net.Uri.Parse(System.Convert.ToString(Resource.Drawable.facultad)));
             view.FindViewById<TextView>(Resource.Id.listIconTxtTitle).Text = item.NombreFacultad;
             view.FindViewById<TextView>(Resource.Id.listIconTxtSub).Text = "Empleados: " + Global.Empleados.Where(e => e.FacultadId == vLista[position].Id).Count();
+            view.FindViewById<TextView>(Resource.Id.listIconTxtSub2).Text = "Salarios: " + Global.Empleados.Where(e => e.FacultadId == vLista[position].Id).Select(e => e.Salario).Sum();
             return view;
         }
     }
